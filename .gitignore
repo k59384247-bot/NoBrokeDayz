@@ -1,0 +1,27 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+.dev.vars*
+
+# Dependencies and generated output
+node_modules/
+.next/
+.cloudflare/
+.wrangler/
+.vinext/
+.supabase-home/
+.supabase-home-identity/
+supabase-home-identity/
+next-env.d.ts
+*.tsbuildinfo
+dist/
+.output/
+build/
+coverage/
+
+# Editor and operating system files
+.DS_Store
+*.swp
+.idea/
+.vscode/
